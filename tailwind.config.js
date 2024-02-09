@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Nunito: ["Nunito Sans"],
+        normalText: ["Nunito Sans"],
+        boldText: ["Bebas Neue"],
+        Archivo: ["Archivo"],
       },
       colors: {
         primaryColor: "#F36F24",
@@ -12,6 +14,9 @@ export default {
         TextColor: "#362820",
         subTextColor: "#827168",
         textColorWhite: "#F3E4DB",
+      },
+      animation: {
+        blobAnimation: "blobAnimation 3s ease infinite",
       },
     },
   },
