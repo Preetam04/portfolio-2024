@@ -1,10 +1,12 @@
 import React from "react";
+import ParticlesBg from "../components/ParticlesBg";
 
 const Home = () => {
   return (
-    <div className="flex flex-col justify-center items-center w-full h-[80vh] relative ">
+    <div className="flex flex-col justify-center items-center w-full h-screen relative ">
       <div className=" w-[30rem] h-[33rem] bg-slate-400 absolute z-0 bg-gradient-to-bl from-primaryColor    to-white rounded-full -rotate-[30deg] mr-10   " />
-      <h1 className="text-TextColor font-boldText uppercase text-9xl leading-none z-10">
+      <div className="absolute w-100 h-100">{/* <ParticlesBg /> */}</div>
+      <h1 className="text-TextColor font-boldText uppercase text-9xl leading-none z-10 ">
         Hi there,
         <br />
         <span className="w-[5.5rem] inline-block"></span> I'm Preetam.

@@ -11,16 +11,18 @@ import Container from "./components/Container";
 
 function App() {
   return (
-    <div className="flex flex-col items-center w-screen bg-accentColor bg-opacity-10 h-screen">
+    <div className="flex flex-col items-center w-full bg-accentColor bg-opacity-10 ">
       <Navbar />
       <Container>
         <Home />
-        {/* <About />
-        <Services />
+      </Container>
+      <Container>
+        <About />
+      </Container>
+      {/*  <Services />
         <Works />
         <Testimonials />
         <Footer />*/}
-      </Container>
     </div>
   );
 }
