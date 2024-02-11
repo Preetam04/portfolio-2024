@@ -41,7 +41,7 @@ const About = () => {
         {/* responsive breakpoint layout */}
 
         <div className="w-full h-full block xl:hidden" id="responsive">
-          <div className="w-full h-full relative py-7 flex flex-col items-center">
+          <div className="w-full h-full relative py-7 flex flex-col items-center justify-center">
             <h3 className="text-TextColor font-boldText uppercase text-7xl leading-none z-10 text-center sm:text-8xl">
               About Me
             </h3>
@@ -53,7 +53,7 @@ const About = () => {
               />
               <div className="w-[17.3rem] h-64 bg-primaryColor bg-opacity-70 relative left-[2.5rem] bottom-[4.1rem] sm:w-[24rem] sm:bottom-24 sm:left-7 sm:h-96"></div>
             </div>
-            <p className="font-normalText font-normal  opacity-60 mt-2 capitalize text-sm leading-2 text-center w-full max-w-[30rem] relative bottom-12 sm:bottom-20 sm:max-w-[36rem]">
+            <p className="font-normalText font-normal  opacity-60 mt-2 capitalize text-sm leading-2 text-center w-full max-w-[30rem] relative bottom-12 sm:bottom-20 sm:max-w-[36rem] sm:text-base">
               No one shall be subjected to arbitrary arrest, detention or exile.
               Everyone is entitled in full equality to a fair and public hearing
               by an independent and impartial tribunal, in the determination of
