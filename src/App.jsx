@@ -11,7 +11,7 @@ import Container from "./components/Container";
 
 function App() {
   return (
-    <div className="flex flex-col items-center w-full bg-accentColor bg-opacity-10 ">
+    <div className="flex flex-col items-center w-full bg-accentColor bg-opacity-10 overflow-x-hidden">
       <Navbar />
       <Container>
         <Home />
@@ -19,8 +19,10 @@ function App() {
       <Container>
         <About />
       </Container>
-      {/*  <Services />
-        <Works />
+      {/* <Container>
+        <Services />
+      </Container> */}
+      {/* <Works />
         <Testimonials />
         <Footer />*/}
     </div>
