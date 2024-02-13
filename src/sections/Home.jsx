@@ -11,7 +11,7 @@ const Home = () => {
         <br />
         <span className="w-9  sm:w-[5.5rem] inline-block"></span> I'm Preetam.
       </h1>
-      <p className="text-center font-normalText font-medium  opacity-60 mt-2 sm:mt-4 capitalize text-xs sm:text-sm md:text-md leading-6">
+      <p className="text-center font-normalText font-medium  opacity-60 mt-2 sm:mt-4 capitalize text-xs sm:text-sm md:text-md leading-6 text-TextColor">
         I Make Aesthetic no-code & coded <br /> websites and Web-Applications.
       </p>
     </div>

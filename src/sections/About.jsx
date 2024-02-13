@@ -4,7 +4,7 @@ import { FiArrowDown } from "react-icons/fi";
 const About = () => {
   return (
     <div
-      className="flex flex-col justify-center items-center w-full py-4 relative "
+      className="flex flex-col justify-center items-center w-full py-20 relative "
       id="about"
     >
       {/* xl breakpoint layout */}
@@ -54,7 +54,7 @@ const About = () => {
               <div className="w-[17.3rem] h-64 bg-primaryColor bg-opacity-70 relative left-[1rem] bottom-[4.1rem] sm:w-[24rem] sm:bottom-24 sm:left-7 sm:h-96"></div>
             </div>
             <div className=" flex flex-col items-center relative bottom-12 sm:bottom-20 ">
-              <p className="font-normalText font-normal  opacity-60 mt-2 capitalize text-sm leading-2 text-center w-full max-w-[30rem] sm:max-w-[36rem] sm:text-base">
+              <p className="font-normalText font-normal text-TextColor  opacity-60 mt-2 capitalize text-sm leading-2 text-center w-full max-w-[30rem] sm:max-w-[36rem] sm:text-base">
                 No one shall be subjected to arbitrary arrest, detention or
                 exile. Everyone is entitled in full equality to a fair and
                 public hearing by an independent and impartial tribunal, in the
