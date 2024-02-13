@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className=" h-14  w-full flex flex-row items-center justify-between px-3 sm:px-10 z-20 ">
       {/* name and icon */}
       <div className="flex items-center text-TextColor font-normalText text-base font-semibold gap-1 cursor-pointer">
-        <img src="src\assets\Icon.svg" alt="Icon" className="w-6" />
+        <img src="./src/assets/Icon.svg" alt="Icon" className="w-6" />
         <p className="">Preetam Patil</p>
       </div>
       {/* services div */}
@@ -16,9 +16,11 @@ const Navbar = () => {
               About
             </li>
           </a>
-          <li className=" transition-all ease-in delay-100 cursor-pointer hover:text-primaryColor hover:font-semibold hover:translate-x-2 py-0.5">
-            Services
-          </li>
+          <a href="/#services">
+            <li className=" transition-all ease-in delay-100 cursor-pointer hover:text-primaryColor hover:font-semibold hover:translate-x-2 py-0.5">
+              Services
+            </li>
+          </a>
           <li className=" transition-all ease-in delay-100 cursor-pointer hover:text-primaryColor hover:font-semibold hover:translate-x-2 py-0.5">
             Work
           </li>

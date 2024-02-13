@@ -19,9 +19,9 @@ function App() {
       <Container>
         <About />
       </Container>
-      {/* <Container>
+      <Container>
         <Services />
-      </Container> */}
+      </Container>
       {/* <Works />
         <Testimonials />
         <Footer />*/}
