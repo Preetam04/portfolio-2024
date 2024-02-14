@@ -22,8 +22,10 @@ function App() {
       <Container>
         <Services />
       </Container>
-      {/* <Works />
-        <Testimonials />
+      <Container>
+        <Works />
+      </Container>
+      {/*        <Testimonials />
         <Footer />*/}
     </div>
   );

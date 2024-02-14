@@ -19,9 +19,9 @@ const About = () => {
             />
             <div className="w-[34rem] h-[30.625rem] bg-primaryColor  z-10 relative top-[7rem] left-[10rem] opacity-70"></div>
             <div className="bottom-[4.5rem] left-96 relative flex flex-col items-end z-40 w-fit">
-              <h3 className="text-TextColor font-boldText uppercase text-9xl leading-none z-10 text-center">
+              <h2 className="text-TextColor font-boldText uppercase text-7xl leading-none z-10 text-center sm:text-8xl md:text-9xl   inline-block ">
                 About Me
-              </h3>
+              </h2>
               <p className="font-normalText font-medium  opacity-60 mt-2 capitalize text-md leading-6 text-right   w-[51rem]">
                 No one shall be subjected to arbitrary arrest, detention or
                 exile. Everyone is entitled in full equality to a fair and
@@ -42,9 +42,9 @@ const About = () => {
 
         <div className="w-full h-fit block xl:hidden " id="responsive">
           <div className="w-full h-fit relative py-7 flex flex-col items-center ">
-            <h3 className="text-TextColor font-boldText uppercase text-7xl leading-none z-10 text-center sm:text-8xl">
+            <h2 className="text-TextColor font-boldText uppercase text-7xl leading-none z-10 text-center sm:text-8xl md:text-9xl   inline-block ">
               About Me
-            </h3>
+            </h2>
             <div className="mt-3 sm:mt-5 ">
               <img
                 src="./src/assets/bg-overlays/about-us-image-bg.svg"

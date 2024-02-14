@@ -11,9 +11,9 @@ const Services = () => {
     >
       {/* title */}
       <div className="w-full align-bottom self-end mb-4 lg:mb-14 xl:w-[60rem] ">
-        <h1 className="text-TextColor font-boldText uppercase text-7xl leading-none z-10 text-left sm:text-8xl md:text-9xl   inline-block">
+        <h2 className="text-TextColor font-boldText uppercase text-7xl leading-none z-10 text-left sm:text-8xl md:text-9xl   inline-block">
           What i Do?
-        </h1>
+        </h2>
         {/* decription */}
         <p className="font-normalText text-TextColor font-normal  opacity-60 mt-2 capitalize text-xs leading-2 text-left w-full max-w-[30rem] sm:max-w-[35rem] sm:text-base md:text-wrap">
           No one shall be subjected to arbitrary arrest, detention or exile.
