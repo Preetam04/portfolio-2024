@@ -25,8 +25,8 @@ function App() {
       <Container>
         <Works />
       </Container>
-      {/*        <Testimonials />
-        <Footer />*/}
+      <Testimonials />
+      {/*  <Footer />*/}
     </div>
   );
 }
