@@ -7,27 +7,29 @@ import SectionHeader from "../components/SectionHeader";
 
 const Services = () => {
   return (
-    <div
-      className="w-full py-10 lg:py-24 flex flex-col justify-between  gap-8"
-      id="services"
-    >
-      {/* title */}
-      <div className="w-full align-bottom self-start mb-4 lg:mb-10 lg:w-[60rem] ">
-        <SectionHeader content={"My Services"} align={"left"} />
-        {/* decription */}
-        <p className="font-normalText text-TextColor font-normal  opacity-60 mt-2 capitalize text-xs leading-2 text-left w-full max-w-[30rem] sm:max-w-[35rem] sm:text-base md:text-wrap">
-          No one shall be subjected to arbitrary arrest, detention or exile.
-          Everyone is entitled in full equality to a fair and public hearing by
-          an independent and impartial tribunal, in the determination of his
-          rights and obligations
-        </p>
-      </div>
-      {/* cards div */}
+    <div className="max-w-[1440px] w-full h-full  px-5 sm:px-10 ">
+      <div
+        className="w-full py-14 flex flex-col flex-wrap xl:flex-nowrap justify-between  gap-6 "
+        id="services"
+      >
+        {/* title */}
+        <div className="w-full align-bottom self-start mb-4 lg:mb-6 lg:w-[60rem] ">
+          <SectionHeader content={"What I Do."} align={"left"} />
+          {/* decription */}
+          <p className="font-normalText text-textColorWhite font-normal  opacity-60 mt-2 capitalize text-xs leading-2 text-left w-full max-w-[30rem] sm:max-w-[35rem] sm:text-base md:text-wrap">
+            No one shall be subjected to arbitrary arrest, detention or exile.
+            Everyone is entitled in full equality to a fair and public hearing
+            by an independent and impartial tribunal, in the determination of
+            his rights and obligations
+          </p>
+        </div>
+        {/* cards div */}
 
-      <div className="w-full lg:w-fit h-fit flex lg:self-end flex-col flex-wrap gap-4 justify-end  relative lg:bottom-8 xl:bottom-12">
-        <ServicesDropdown title={"Web Development"} />
-        <ServicesDropdown title={"Web Design"} />
-        <ServicesDropdown title={"Weflow Development"} />
+        <div className="w-full xl:w-fit h-fit flex lg:self-end flex-col flex-wrap gap-4 justify-end  relative xl:bottom-10 xl:mt-[-3rem]">
+          <ServicesDropdown title={"Web Development"} />
+          <ServicesDropdown title={"Web Design"} />
+          <ServicesDropdown title={"Webflow Development"} />
+        </div>
       </div>
     </div>
   );

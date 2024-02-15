@@ -14,6 +14,8 @@ export default {
         TextColor: "#362820",
         subTextColor: "#827168",
         textColorWhite: "#F3E4DB",
+        darkBg: "#0F0803",
+        lightBg: "#FFEBE0",
       },
       animation: {
         blobAnimation: "blobAnimation 3s ease infinite",

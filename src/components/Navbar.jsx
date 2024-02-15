@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className=" h-14  w-full flex flex-row items-center justify-between px-3 sm:px-10 z-20 ">
+    <div className=" h-14  w-full flex flex-row items-center bg-lightBg justify-between px-3 sm:px-10 z-20 ">
       {/* name and icon */}
       <div className="flex items-center justify-center text-TextColor font-normalText text-lg font-semibold gap-1.5 cursor-pointer">
         <img src="./src/assets/Icon.svg" alt="Icon" className="w-7" />
