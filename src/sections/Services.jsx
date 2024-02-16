@@ -16,7 +16,7 @@ const Services = () => {
         <div className="w-full align-bottom self-start mb-4 lg:mb-6 lg:w-[60rem] ">
           <SectionHeader content={"What I Do."} align={"left"} />
           {/* decription */}
-          <p className="font-normalText text-textColorWhite font-normal  opacity-60 mt-2 capitalize text-xs leading-2 text-left w-full max-w-[30rem] sm:max-w-[35rem] sm:text-base md:text-wrap">
+          <p className="font-normalText text-textColorWhite font-normal  opacity-60 mt-2 capitalize text-sm leading-2 text-left w-full max-w-[30rem] sm:max-w-[35rem] sm:text-base md:text-wrap">
             No one shall be subjected to arbitrary arrest, detention or exile.
             Everyone is entitled in full equality to a fair and public hearing
             by an independent and impartial tribunal, in the determination of

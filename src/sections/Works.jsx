@@ -14,7 +14,7 @@ const Works = () => {
 
           <SectionHeader align={"center"} content={"My Work & Projects"} />
           {/* small description */}
-          <p className="font-normalText text-textColorWhite font-normal  opacity-60 mt-4 capitalize text-xs leading-2 text-center w-full max-w-[30rem] sm:max-w-[35rem] sm:text-base md:text-wrap">
+          <p className="font-normalText text-textColorWhite font-normal  opacity-60 mt-4 capitalize text-sm leading-2 text-center w-full max-w-[30rem] sm:max-w-[35rem] sm:text-base md:text-wrap">
             No one shall be subjected to arbitrary arrest, detention or exile.
             Everyone is entitled in full equality to a fair and public hearing
           </p>
