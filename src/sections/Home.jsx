@@ -3,7 +3,10 @@ import ParticlesBg from "../components/ParticlesBg";
 
 const Home = () => {
   return (
-    <div className="w-full h-full bg-lightBg flex justify-center items-center">
+    <div
+      className="w-full h-full bg-lightBg flex justify-center items-center"
+      id="home"
+    >
       <div className="max-w-[1440px] w-full   px-5 sm:px-10 ">
         <div className="flex flex-col justify-center items-center w-full h-screen relative ">
           <div className="w-[30rem] h-[33rem] scale-[60%] sm:scale-90 md:scale-100 bg-slate-400 absolute z-0 bg-gradient-to-bl from-primaryColor    to-white rounded-full -rotate-[30deg] mr-0 md:mr-10   " />
