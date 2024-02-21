@@ -9,7 +9,7 @@ const Testimonials = () => {
   return (
     <div className="max-w-[1440px] w-full h-full  px-5 sm:px-10 ">
       <div
-        className="w-full py-16  flex flex-col justify-between lg:justify-center gap-8"
+        className="w-full py-20  flex flex-col justify-between lg:justify-center gap-8"
         id="testimonials"
       >
         <div className="">

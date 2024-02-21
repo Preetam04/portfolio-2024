@@ -30,10 +30,12 @@ const About = () => {
                   criminal charge against him. No one shall be subjected to
                   arbitrary interference with his privacy, family
                 </p>
-                <button className=" flex flex-row justify-between items-center bg-primaryColor text-white font-normalText mt-5 gap-3 py-2 px-3 rounded-md  font-medium">
-                  My services
-                  <FiArrowDown className="relative top-0.5" />
-                </button>
+                <a href="/#services">
+                  <button className=" flex flex-row justify-between items-center bg-primaryColor text-white font-normalText mt-5 gap-3 py-2 px-3 rounded-md  font-medium">
+                    My services
+                    <FiArrowDown className="relative top-0.5" />
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -64,10 +66,12 @@ const About = () => {
                   criminal charge against him. No one shall be subjected to
                   arbitrary interference with his privacy, family
                 </p>
-                <button className=" flex flex-row justify-between items-center bg-primaryColor text-white font-normalText mt-3 gap-3 py-2 px-3 rounded-md  font-medium">
-                  My services
-                  <FiArrowDown className="relative top-0.5" />
-                </button>
+                <a href="/#services">
+                  <button className=" flex flex-row justify-between items-center bg-primaryColor text-white font-normalText mt-3 gap-3 py-2 px-3 rounded-md  font-medium">
+                    My services
+                    <FiArrowDown className="relative top-0.5" />
+                  </button>
+                </a>
               </div>
             </div>
           </div>

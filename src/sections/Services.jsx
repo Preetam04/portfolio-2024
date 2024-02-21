@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <div className="max-w-[1440px] w-full h-full  px-5 sm:px-10 ">
       <div
-        className="w-full py-14 flex flex-col flex-wrap xl:flex-nowrap justify-between  gap-6 "
+        className="w-full py-20 flex flex-col flex-wrap xl:flex-nowrap justify-between  gap-6 "
         id="services"
       >
         {/* title */}
