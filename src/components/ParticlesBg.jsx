@@ -1,12 +1,12 @@
 import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import { particlesConfig } from "../particlesjs-config.js";
 
 const ParticlesBg = () => {
   const particlesInit = useCallback(async (engine) => {
-    {
-      console.log("rendering");
-    }
+    console.log("rendering");
+
     await loadFull(engine);
   }, []);
 
@@ -14,12 +14,14 @@ const ParticlesBg = () => {
 
   return (
     <Particles
-      className="w-full h-full translate-z-0"
       id="tsparticles"
+      className="w-full h-full translate-z-0"
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        fullScreen: { enable: false },
+        fullScreen: {
+          enable: false,
+        },
         background: {
           color: {
             value: "",
@@ -49,50 +51,51 @@ const ParticlesBg = () => {
           },
         },
         particles: {
-          colors: {
-            value: "#D9A577",
+          color: {
+            value: "#F36F24",
           },
           links: {
-            color: "#827168",
-            distance: 158,
-            enable: true,
-            opacity: 0.5,
-            width: 1,
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outMode: {
-              default: "bounce",
-            },
-            random: false,
-            speed: 1,
-            straight: false,
-          },
-          number: {
-            density: {
+            color: {
+              value: "#F36F24",
+              distance: 150,
               enable: true,
-              area: 800,
+              opacity: 0.5,
+              width: 1,
             },
-            value: 80,
-          },
-          opacity: {
-            value: 0.5,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            value: {
-              min: 1,
-              max: 5,
+            collisions: {
+              enable: true,
+            },
+            move: {
+              directions: "none",
+              enable: true,
+              outModes: {
+                default: "bounce",
+              },
+              random: false,
+              speed: 1,
+              straight: false,
+            },
+            number: {
+              density: {
+                enable: true,
+                area: 800,
+              },
+              value: 80,
+            },
+            opacity: {
+              value: 0.5,
+            },
+            shape: {
+              type: "cirlce",
+            },
+            size: {
+              value: {
+                min: 1,
+                max: 5,
+              },
             },
           },
         },
-
         detectRetina: true,
       }}
     />
