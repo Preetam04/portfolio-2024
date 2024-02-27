@@ -6,11 +6,12 @@ const Sidebar = ({ status, toggleFunc }) => {
   return (
     <>
       <div
-        className={`h-full w-full fixed left-0 z-50 delay-300  items-center flex ${
+        className={`h-full w-full fixed left-0 z-50 delay-300  items-center flex  ${
           status ? "translate-x-0 opacity-100 " : "-translate-x-32 opacity-0 "
         }`}
+        style={{}}
       >
-        <div className=" bg-lightBg h-[99vh] w-full min-w-80 sm:min-w-96 max-w-[32%]  relative z-20 my-1.5 ml-1.5   rounded-md overflow-hidden">
+        <div className=" bg-lightBg h-[99vh] w-full min-w-80 sm:min-w-96 max-w-[32%]  relative z-20 my-1.5 ml-1.5   rounded-md overflow-hidden bgPattern ">
           {/* <div className="absolute w-[30rem] h-[30rem] bg-gradient-to-tr from-primaryColor opacity-75   to-white rounded-full rotate-45 -right-10 -bottom-40 scale-[175%]" /> */}
           <ol className=" flex  flex-col font-boldText font-medium  text-TextColor h-full justify-center ml-8 sm:ml-16 gap-3 relative ">
             <a
