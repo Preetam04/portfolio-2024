@@ -9,14 +9,14 @@ const Testimonials = () => {
   return (
     <div className="max-w-[1440px] w-full h-full  px-5 sm:px-10 ">
       <div
-        className="w-full py-20  flex flex-col justify-between lg:justify-center gap-8"
+        className="w-full py-16  flex flex-col justify-between lg:justify-center gap-8"
         id="testimonials"
       >
         <div className="">
           <SectionHeader
             align={"left"}
             content={"Client Testimonials"}
-            textColor="text-TextColor"
+            textColor="TextColor"
           />
           <p className="font-normalText text-TextColor font-normal  opacity-60 mt-2 capitalize text-sm leading-2 text-left w-full max-w-[30rem] sm:max-w-[35rem] sm:text-base md:text-wrap">
             No one shall be subjected to arbitrary arrest, detention or exile.

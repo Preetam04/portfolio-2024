@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="max-w-[1440px] w-full   px-5 sm:px-10 ">
       <div
-        className="flex flex-col justify-center items-center w-full py-14 relative "
+        className="flex flex-col justify-center items-center w-full py-16 relative "
         id="about"
       >
         {/* xl breakpoint layout */}
@@ -33,7 +33,7 @@ const About = () => {
                 <a href="/#services">
                   <button className=" flex flex-row justify-between items-center bg-primaryColor text-white font-normalText mt-5 gap-3 py-2 px-3 rounded-md  font-medium">
                     My services
-                    <FiArrowDown className="relative top-0.5" />
+                    <FiArrowDown className="relative top-0.5 animate-bounce" />
                   </button>
                 </a>
               </div>

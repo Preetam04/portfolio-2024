@@ -101,11 +101,10 @@ export default Footer;
 const ListComp = ({ title, list }) => {
   return (
     <div className=" w-full ">
-      <h3 className="text-2xl">{title}</h3>
-      <ol className=" flex  flex-col font-medium text-subTextColor mt-2">
+      <ol className=" flex  font-normalText flex-col font-normal text-subTextColor mt-2">
         {list.map((ele, key) => (
           <a href={ele.link} key={key}>
-            <li className=" transition-all text-base w-fit ease-in delay-100 cursor-pointer hover:text-primaryColor  hover:translate-x-2 py-0.5">
+            <li className=" transition-all text-base w-fit ease-in delay-100 cursor-pointer hover:text-primaryColor  hover:translate-x-2 py-1">
               {ele.title}
             </li>
           </a>

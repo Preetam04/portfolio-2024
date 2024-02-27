@@ -4,7 +4,7 @@ const MenuBtn = ({ menuRef, toggleFunc, status }) => {
   return (
     <div
       ref={menuRef}
-      className={`fixed bg-primaryColor bg-opacity-65 w-14 h-14  left-7 top-8 z-[70] rounded-full  py-4 px-4  flex flex-col  items-center justify-center cursor-pointer ${
+      className={`fixed bg-primaryColor bg-opacity-65 w-14 h-14 delay-300 left-7 top-8 z-[70] rounded-full  py-4 px-4  flex flex-col  items-center justify-center cursor-pointer ${
         status ? "gap-5" : "gap-2 "
       }`}
       onClick={() => {
@@ -16,12 +16,12 @@ const MenuBtn = ({ menuRef, toggleFunc, status }) => {
       <hr className="bg-white w-8 h-[2px]   " /> */}
       {/* <div className="w-full h-full flex flex-col  items-center justify-center"></div> */}
       <div
-        className={`bg-white w-8 h-[2px]  origin-top-left  ${
+        className={`bg-white w-8 h-[2px] delay-300 origin-top-left  ${
           status ? "rotate-45 ml-2.5 " : "rotate-0 "
         }`}
       ></div>
       <div
-        className={`bg-white w-8 h-[2px] origin-bottom-left   ${
+        className={`bg-white w-8 h-[2px] delay-300 origin-bottom-left   ${
           status ? "-rotate-45 ml-2.5 " : "rotate-0 "
         }`}
       ></div>
