@@ -3,7 +3,7 @@ import ParticlesBg from "../components/ParticlesBg";
 import SectionHeader from "../components/SectionHeader";
 import { BiSolidQuoteLeft } from "react-icons/bi";
 import { FaQuoteLeft } from "react-icons/fa6";
-import TestimonialCard from "../components/testimonialCard";
+import TestimonialCard from "../components/TestimonialCard";
 
 const Testimonials = () => {
   return (
